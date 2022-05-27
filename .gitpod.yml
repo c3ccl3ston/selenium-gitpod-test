@@ -19,7 +19,7 @@ tasks:
       mvn install
       mvn test -Dtest=\!CSauceDemoTest -DfailIfNoTests=false || true
     command: |
-      gp open src/test/java/com/saucelabs/quickstarts/SauceDemoTest.java
+      gp open src/test/java/com/saucelabs/demo/tests/SauceDemoTest.java
 
 vscode:
   extensions:
