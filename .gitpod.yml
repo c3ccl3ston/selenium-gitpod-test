@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 # open up the port for VNC
 # ignore all other ports
 ports:
