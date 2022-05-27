@@ -23,10 +23,10 @@ tasks:
 
 vscode:
   extensions:
+    - redhat.java
+    - redhat.vscode-xml
+    - vscjava.vscode-maven
     - vscjava.vscode-java-debug
     - vscjava.vscode-java-pack
-    - redhat.java
-    - vscjava.vscode-maven
     - vscjava.vscode-java-dependency
     - vscjava.vscode-java-test
-    - redhat.vscode-xml
