@@ -16,8 +16,8 @@ ports:
 # in 'command' we have bash-code that is executen in the Gitpod Terminal View when the user opens a workspace.
 tasks:
   - init: |
-      mvn install
-      mvn test -Dtest=\!CSauceDemoTest -DfailIfNoTests=false || true
+      mvn install -DskipTests=true
+      mvn test
     command: |
       gp open src/test/java/com/saucelabs/demo/tests/SauceDemoTest.java
 
