@@ -17,3 +17,13 @@ tasks:
       mvn test -Dtest=\!CSauceDemoTest -DfailIfNoTests=false || true
     command: |
       gp open src/test/java/com/saucelabs/quickstarts/SauceDemoTest.java
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-pack
+    - redhat.java
+    - vscjava.vscode-maven
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-java-test
+    - redhat.vscode-xml
